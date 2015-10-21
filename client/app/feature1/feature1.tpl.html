@@ -1,1 +1,7 @@
-<div>Hello {{feature1.testVal}}!</div>
+<div class="main">Hello {{feature1.testVal}}!</div>
+
+<div>
+    <p>See the button below? You pressed it {{feature1.times}} times</p>
+
+    <button ng-click="feature1.times = feature1.times + 1">Click me!</button>
+</div>

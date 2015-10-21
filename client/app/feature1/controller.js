@@ -4,4 +4,5 @@
 
 export function Feature1Controller() {
     this.testVal = 'world';
+    this.times = 0;
 }
